@@ -1,0 +1,125 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.father {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    background: #000;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menu {
+    background: #2D4059;
+    display: flex;
+}
+
+.logo {
+    background: #ea5455;
+    flex: 1 1 auto;
+}
+
+.navi {
+    background: #ea5455;
+    flex: 5 1 auto;
+}
+
+.social {
+    background: #ea5455;
+    flex: 1 1 auto;
+}
+
+.main-text {
+    background: #F07b3f;
+    display: flex;
+}
+
+h1 {
+    background: #FFd460;
+    width: 100%;
+}
+
+.section {
+    background: #FFED00;
+    display: flex;
+}
+
+.articles {
+    background: #4e4e6a;
+    display: flex;
+    flex-flow: wrap;
+    flex: 2 1 auto;
+}
+
+.article {
+    background: #1f6cb0;
+    flex: 1 1 42%;
+}
+
+.browser {
+    background: #70a3c4;
+    flex: 1 1 100%;
+}
+
+.aside {
+    background: #f73f52;
+    flex: 1 1 auto;
+}
+
+.ad {
+    background: #FFea85;
+}
+
+.footer {
+    background: #000;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.foot {
+    background: #e6af2e;
+}
+
+@media all and (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        background: yellow;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .menu {
+        flex-direction: column;
+    }
+    .section {
+        flex-direction: column;
+        background: #FEE228;
+    }
+    .articles {
+        background: #09506F;
+    }
+    .article {
+        background: #62959C;
+    }
+    .navi {
+        background: #ea5455;
+    }
+    .aside {
+        background: #FD7B54;
+    }
+    .ad {
+        background: #FDB36B;
+    }
+}

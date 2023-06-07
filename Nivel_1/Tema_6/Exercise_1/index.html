@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Form</h1>
+        <form id="form" action="Exercise1.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required placeholder="Uvas Dobles">
+            <h3>A tricky selector</h3>
+            <!-- it's a cheat form because all the buttons select php except "gpt"-->
+            <p>Choose your favorite programming language:</p>
+            <input type="radio" id='html' name="language" value="HTML">
+            <label for="php">HTML</label><br>
+            <input type="radio" id="java" name="language" value="JAVA">
+            <label for="php">JAVA</label><br>
+            <input type="radio" id="php" name="language" value="PHP">
+            <label for="php">PHP</label><br>
+            <input type="radio" id="go" name="language" value="GPT">
+            <label for="gpt">I surrendered to GPT :(</label><br>
+            <input type="submit" value="Hurry">
+        </form>
+    </header>
+</body>
+
+</html>
